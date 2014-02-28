@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="1000dp"
+    android:minWidth="1000dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/add_new_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/add_new_goal" />
+	
+     <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <ExpandableListView
+        android:id="@+id/expandableListViewGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ExpandableListView>
+
+</LinearLayout>

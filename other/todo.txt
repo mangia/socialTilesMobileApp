@@ -1,0 +1,25 @@
+play tab
+
+	share goals
+	share high scores
+		
+
+
+add friend
+
+
+
+reload
+
+limit offet posts
+
+correct the highscores
+
+
+Check the events log
+Missed feedbacks
+Disconnect button
+Connect button
+
+
+

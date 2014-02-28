@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/profile_image_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:gravity="center"
+        android:src="@drawable/nepal" 
+        android:contentDescription="@string/todo_string"/>
+
+    <TextView
+        android:id="@+id/profile_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:gravity="center"
+        android:text="Manos Giannisakis"
+        android:textSize="15sp" />
+	 <TextView
+        android:id="@+id/profile_score_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:gravity="center"
+        android:text="500"
+        android:visibility="gone"
+        android:textSize="15sp" />
+</LinearLayout>

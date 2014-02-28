@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/post_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/charCounts_id"
+        android:inputType="text|textImeMultiLine"
+        android:maxLength="144"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/charCounts_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/sendBtn_id"
+        android:text="@string/char_count_string" />
+
+    <Button
+        android:id="@+id/sendBtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/send_string" />
+
+</RelativeLayout>
